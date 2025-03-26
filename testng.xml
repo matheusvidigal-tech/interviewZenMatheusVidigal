@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search Test">
+    <test name="Run">
+        <classes>
+            <class name="e2e.SearchResultsTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
