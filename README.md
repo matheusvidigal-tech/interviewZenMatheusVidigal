@@ -1,5 +1,5 @@
 
-# ☕ Automação Blog Agibank | Java - TestNG - Selenium ☕
+# Automação Blog Agibank | Java - TestNG - Selenium ☕
 ___
 
 ## Instalação
