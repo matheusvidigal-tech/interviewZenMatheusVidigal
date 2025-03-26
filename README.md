@@ -44,7 +44,7 @@ mvn test
 **OBS:** O pipeline está configurado, mas o Selenium não está localizando os elementos no modo "--headless".
 
 
-# Cenarios
+# Cenários
 
 #### 1 - _sucessfullySearch_ (Busca com resultados)
   **Dado** que eu estou na Home <br />
@@ -75,7 +75,9 @@ ___
 
 # BUGS
 
-  #### 1 - _[FE] [WEB] [Home] NAO É POSSIVEL REALIZAR BUSCA AO RECARREGAR TELA_ (Busca sem resultados) - Criticidade: Alta
+  #### 1 - _[FE] [WEB] [Home] NÃO É POSSÍVEL REALIZAR BUSCA AO RECARREGAR TELA_
+
+**Criticidade:** Alta <br /> 
 **Comportamento atual** <br /> 
 Ao recarregar a tela da Home a partir do próprio browser (F5), ou clicando no logo do header, o evento de click do botão  de lupa perde a funcionalidade, sendo necessário abrir uma nova aba para conseguir realizar a busca novamente. <br />
 
@@ -88,7 +90,8 @@ Ao recarregar a tela da Home a partir do próprio browser (F5), ou clicando no l
 
 ___
 
-  #### 2 - _[FE] [MOBILE] [Home] BOTAO DO MENU NAO POSSUI FUNCIONALIDADE_ (Busca sem resultados) - Criticidade: Critico
+  #### 2 - _[FE] [MOBILE] [Home] BOTÃO DO MENU NÃO POSSUI FUNCIONALIDADE_
+**Criticidade:** Crítica <br /> 
 **Comportamento atual** <br /> 
 O menu "hamburguer" no canto inferior esquerdo não  possui funcionalidade, impossibilitando navegar entre os artigos ou realizar alguma busca na versão mobile<br />
 
@@ -100,7 +103,9 @@ O menu "hamburguer" no canto inferior esquerdo não  possui funcionalidade, impo
 
 ___
 
-  #### 3 - _[FE] [WEB] [Home] BOTAO DO MENU NAO POSSUI FUNCIONALIDADE_ (Busca sem resultados) - Criticidade: Muito baixa
+  #### 3 - _[FE] [WEB] [Home] A ANIMAÇÃO DE EXIBIÇÃO DOS ARTIGOS NÃO OCORRE NA TELA DE "STORIES"_
+
+**Criticidade:** Muito baixa <br /> 
 **Comportamento atual** <br /> 
 A mesma animação presente nas demais páginas antes de exibir completamente os artigos, não está sendo exibida na página de Stories ao carregar os artigos. <br />
 
