@@ -41,7 +41,7 @@ ___
 mvn test
 ```
 
-
+**OBS:** O pipeline está configurado, mas o Selenium não está localizando os elementos no modo "--headless".
 
 
 # Cenarios
